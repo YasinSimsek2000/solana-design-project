@@ -1,6 +1,5 @@
 "use client"
 
-import {NavigationBar} from "@/components/NavigationBar";
 import {LeftSide} from "@/components/LeftSide";
 import {RightSide} from "@/components/RightSide";
 import React, {ReactNode, useState} from "react";
@@ -8,6 +7,7 @@ import "./Main.css"
 import {Menu, MenuItem, SubMenu} from "react-pro-sidebar";
 import {staticDataBlockchain} from "@/extensions/StaticDataBlockchain";
 import {Data1_1} from "@/explanations/blockchain/1_1";
+import NavigationBar from "@/components/NavigationBar";
 
 export const Main = () => {
     const [selectedText, setSelectedText] = useState<ReactNode>(Data1_1);

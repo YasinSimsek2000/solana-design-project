@@ -1,6 +1,5 @@
 "use client"
 
-import {NavigationBar} from "@/components/NavigationBar";
 import {LeftSide} from "@/components/LeftSide";
 import {RightSide} from "@/components/RightSide";
 import React, {ReactNode, useState} from "react";
@@ -8,8 +7,9 @@ import "./Main.css"
 import {Menu, MenuItem, SubMenu} from "react-pro-sidebar";
 import {staticDataSolana} from "@/extensions/StaticDataSolana";
 import {Data8_1} from "@/explanations/solana/8_1";
+import NavigationBar from "@/components/NavigationBar";
 
-//  <MergedContent text={selectedText} onTextChange={setSelectedText}/>
+
 export const Solana = () => {
     const [selectedText, setSelectedText] = useState<ReactNode>(Data8_1);
     return (

@@ -21,9 +21,9 @@ export const Data5 = () => {
             </p>
             <a href="https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture">https://mlsdev.com/blog/156-how-to-build-your-own-blockchain-architecture</a>
 
-            <Image src="https://d32myzxfxyl12w.cloudfront.net/assets/images/article_images/66928a7ce8d460a845f4d63e78cb851fae56317c.jpg?1548938275" alt="React Image" />
+            {/*<Image src="https://d32myzxfxyl12w.cloudfront.net/assets/images/article_images/66928a7ce8d460a845f4d63e78cb851fae56317c.jpg?1548938275" alt="React Image" />*/}
 
-            <Image src="https://d32myzxfxyl12w.cloudfront.net/assets/images/article_images/9c113ff88514d876b69961585759c97cb3ee61f8.jpg?1548936461" alt="React Image" />
+            {/*<Image src="https://d32myzxfxyl12w.cloudfront.net/assets/images/article_images/9c113ff88514d876b69961585759c97cb3ee61f8.jpg?1548936461" alt="React Image" />*/}
 
         </div>
 
