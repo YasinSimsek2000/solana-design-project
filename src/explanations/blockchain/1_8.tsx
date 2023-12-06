@@ -6,6 +6,7 @@ export const Data1_8 = () => {
             < a href="https://www.youtube.com/watch?v=f3CFUbeehc8&t=587s&ab_channel=99Bitcoins">https://www.youtube.com/watch?v=f3CFUbeehc8&t=587s&ab_channel=99Bitcoins</a>
             <br/>
             <strong>SEGWIT</strong>
+            <br/>
             <ul>
                 <li>
                     SEGWIT aims to solve bitcoin scalability problem

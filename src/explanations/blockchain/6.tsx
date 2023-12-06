@@ -6,14 +6,17 @@ export const Data6 = () => {
             <strong>
                 Cryptocurrency Exchanges
             </strong>
+            <br/>
             
             <p>
                 Popular Crypto Exchanges are Binance, Coinbase Exchange, Kraken and KuCoin. Much like stock trading websites or apps, these exchanges allow cryptocurrency investors to buy and sell digital assets at the prevailing price, called spot, or to leave orders that get executed when the asset gets to the investor’s desired price target, called limit orders.
             </p>
-
+            <br/>
 
             <strong>Centralized Cryptocurrency Exchanges</strong>
+            <br/>
             <strong>Pros</strong>
+            <br/>
             <ul>
                 <li>
                     User-friendly
@@ -25,8 +28,10 @@ export const Data6 = () => {
                     Leverage
                 </li>
             </ul>
+            <br/>
 
             <strong>Cons</strong>
+            <br/>
             <ul>
                 <li>
                     Hacking risk
@@ -41,6 +46,7 @@ export const Data6 = () => {
 
             <br/>
             <strong>Decentralized Cryptocurrency Exchanges</strong>
+            <br/>
             <strong>Pros</strong>
             <ul>
                 <li>
@@ -53,8 +59,9 @@ export const Data6 = () => {
                     Less censorship
                 </li>
             </ul>
-
+            <br/>
             <strong>Cons</strong>
+            <br/>
             <ul>
                 <li>
                     Complexity

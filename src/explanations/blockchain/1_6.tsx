@@ -5,12 +5,13 @@ export const Data1_6 = () => {
             < a href="https://raiden.network/101.html">https://raiden.network/101.html</a>
             <br/>
             <strong>The Raiden Network</strong>
-
+            <br/>
             <p>
                 The Raiden Network is an off-chain scaling solution for performing ERC20-compliant token transfers on
                 the Ethereum blockchain. It is Ethereum&apos;s version of Bitcoin&apos;s Lightning Network, enabling near-instant,
                 low-fee, scalable, and privacy-preserving payments.
             </p>
+            <br/>
             <p>
                 The Raiden Network allows secure transfers of tokens between participants without the need for global
                 consensus. This is achieved using digitally signed and hash-locked transfers, called balance proofs,

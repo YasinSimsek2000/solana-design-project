@@ -6,16 +6,18 @@ export const Data3_2 = () => {
             https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/
             
             <a href="https://inst.eecs.berkeley.edu//~cs162/fa12/hand-outs/Original_Byzantine.pdf">https://inst.eecs.berkeley.edu//~cs162/fa12/hand-outs/Original_Byzantine.pdf</a>
-
+            <br/>
             <a href="https://www.youtube.com/watch?v=dfsRQyYXOsQ">https://www.youtube.com/watch?v=dfsRQyYXOsQ</a>
-            
+            <br/>          
             <a href="https://www.youtube.com/watch?v=_fgW2IM6ctM">https://www.youtube.com/watch?v=_fgW2IM6ctM</a>
-
+            <br/>
 
             <strong>Byzantine Generals Problem: Proof of Work ile çözülebilir.</strong>
+            <br/>
             <p>
                 Birden çok bizans generali var ve birbirilerinden çok uzaktalar. Şehre sadece aynı anda saldırırlarsa ele geçirebilirler. Şafak vakti saldırma kararı vermek için diğer generallere elçi yolladığımızda olabilecekler:     
             </p>
+            <br/>
             <ul>
                 <li>
                     Elçiler yolda öldürülebilir. 
@@ -44,6 +46,7 @@ export const Data3_2 = () => {
 
                 
             </ul>
+            <br/>
 
             <ul>
                 <strong>PBFT solution to Practice Byzantine Fault Tolerance</strong>

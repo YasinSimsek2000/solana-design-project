@@ -6,6 +6,7 @@ export const Data3_1 = () => {
             < a href="https://www.youtube.com/watch?v=Jw1iFr4v58M">https://www.youtube.com/watch?v=Jw1iFr4v58M</a>
             <br/>
             <strong>The Cap theorem</strong>
+            <br/>
             <ul>
                 <li>
                     Consistency (Bir node’a verdiğim değer, başka bir node’da da aynı olmalı) Availability (Bir node ile konuştuğumda, geri cevap vermesi) Partition Tolerance ()
@@ -18,6 +19,7 @@ export const Data3_1 = () => {
                 </li>
             </ul>
             
+            <br/>
             <p>
                 Sadece ikisine aynı anda sahip olabiliriz
             </p>

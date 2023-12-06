@@ -9,19 +9,19 @@ export const Data1_4 = () => {
             <p>In Bitcoin, your transaction is sent to a memory pool, where it is stored and queued until a miner or
                 validator picks it up. Once it is entered into a block and the block fills up with transactions, it is
                 closed and encrypted using an encryption algorithm. Then, the mining begins.</p>
-
+            <br/>
             <p>
                 The entire network works simultaneously, trying to &quot;solve&quot; the hash. Each one generates a random hash
                 except for the &quot;nonce,&quot; short for number used once.
             </p>
-
+            <br/>
             <p>
                 Every miner starts with a nonce of zero, which is appended to their randomly-generated hash. If that
                 number isn&apos;t equal to or less than the target hash, a value of one is added to the nonce, and a new
                 block hash is generated. This continues until a miner generates a valid hash, winning the race and
                 receiving the reward.
             </p>
-
+            <br/>
             <p>
                 Once a block is closed, a transaction is complete. However, the block is not considered to be confirmed
                 until five other blocks have been validated. Confirmation takes the network about one hour to complete
@@ -29,7 +29,7 @@ export const Data1_4 = () => {
                 following blocks multiplied by 10 equals about 60 minutes).
 
             </p>
-
+            <br/>
             <p>
                 Not all blockchains follow this process. For instance, the Ethereum network randomly chooses one
                 validator from all users with ether staked to validate blocks, which are then confirmed by the network.
