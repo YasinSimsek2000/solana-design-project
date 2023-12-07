@@ -3,14 +3,15 @@
 import {LeftSide} from "@/components/LeftSide";
 import {RightSide} from "@/components/RightSide";
 import React, {ReactNode, useState} from "react";
-import "./Main.css"
+import "./Blockchain.css"
 import {Menu, MenuItem, SubMenu} from "react-pro-sidebar";
-import {staticDataBlockchain} from "@/extensions/StaticDataBlockchain";
-import {Data1_1} from "@/explanations/blockchain/1_1";
+import {staticDataSolana} from "@/extensions/StaticDataSolana";
+import {Data8_1} from "@/explanations/solana/8_1";
 import NavigationBar from "@/components/NavigationBar";
 
-export const Main = () => {
-    const [selectedText, setSelectedText] = useState<ReactNode>(Data1_1);
+
+export const Solana = () => {
+    const [selectedText, setSelectedText] = useState<ReactNode>(Data8_1);
     return (
         <>
             <NavigationBar></NavigationBar>
@@ -18,24 +19,24 @@ export const Main = () => {
                 <LeftSide>
                     <Menu>
                         {
-                            staticDataBlockchain.map((item, i) => (
+                            staticDataSolana.map((item, i) => (
                                 item.content.length > 1 ? (
                                     <SubMenu key={i} label={i + ". " + item.title}>
                                         {
                                             item.content.map((subItem, j) => (
-                                                    <MenuItem key={`${i}-${j}`} onClick={() => setSelectedText(subItem.content)}>
-                                                        <div>{i + "." + j + " - " + subItem.title}</div>
-                                                    </MenuItem>
+                                                <MenuItem key={`${i}-${j}`} onClick={() => setSelectedText(subItem.content)}>
+                                                    <div>{i + "." + j + " - " + subItem.title}</div>
+                                                </MenuItem>
                                                 )
                                             )
                                         }
-                                    </SubMenu>
-                                    )
+                                    </SubMenu> )
                                     : (
                                         <MenuItem key={i} onClick={() => setSelectedText(item.content[0].content)}>
                                             <div>{i + " - " + item.title}</div>
                                         </MenuItem>
                                     )
+
                             ))
                         }
                     </Menu>

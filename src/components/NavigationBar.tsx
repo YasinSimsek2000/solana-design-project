@@ -9,7 +9,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = [['Blockchain', ""], ['Solana', "/solana"], ["Our Team", "/ourTeam"]];
+const pages = [['Blockchain', "/blockchain"], ['Solana', "/solana"], ["Team", "/team"]];
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
