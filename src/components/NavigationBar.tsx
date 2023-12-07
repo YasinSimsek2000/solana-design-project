@@ -9,8 +9,15 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = [['Blockchain', "/blockchain"], ['Solana', "/solana"], ["Team", "/team"]];
 function ResponsiveAppBar() {
+    // const pathname = ""
+    const pathname = "solana-design-project/";
+    const pages = [
+        ['Blockchain', pathname.concat("/blockchain")],
+        ['Solana', pathname.concat("/solana")],
+        ["Team", pathname.concat("/team")]
+    ];
+
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
 
