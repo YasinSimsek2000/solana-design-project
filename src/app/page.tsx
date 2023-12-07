@@ -1,6 +1,6 @@
 "use client"
 
-import {Main} from "@/allPages/Main";
+import {Main} from "../../pages/Main";
 
 export default function Home() {
     return (
