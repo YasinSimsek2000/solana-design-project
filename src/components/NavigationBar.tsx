@@ -10,8 +10,8 @@ import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
 
 function ResponsiveAppBar() {
-    const pathname = ""
-    // const pathname = "solana-design-project/";
+    // const pathname = ""
+    const pathname = "/solana-design-project";
     const pages = [
         ['Blockchain', pathname.concat("/blockchain")],
         ['Solana', pathname.concat("/solana")],
@@ -78,8 +78,9 @@ function ResponsiveAppBar() {
                                 href={page[1]}
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
+                                
                             >
-                                {page[0]}
+                                {page[1]}
                             </Button>
                         ))}
                     </Box>
