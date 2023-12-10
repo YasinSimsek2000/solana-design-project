@@ -80,7 +80,7 @@ function ResponsiveAppBar() {
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                                 
                             >
-                                {page[1]}
+                                {page[0]}
                             </Button>
                         ))}
                     </Box>
