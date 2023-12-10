@@ -10,8 +10,8 @@ import Button from '@mui/material/Button';
 import AdbIcon from '@mui/icons-material/Adb';
 
 function ResponsiveAppBar() {
-    // const pathname = ""
-    const pathname = "solana-design-project/";
+    const pathname = ""
+    // const pathname = "solana-design-project/";
     const pages = [
         ['Blockchain', pathname.concat("/blockchain")],
         ['Solana', pathname.concat("/solana")],
