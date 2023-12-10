@@ -15,7 +15,8 @@ function ResponsiveAppBar() {
     const pages = [
         ['Blockchain', pathname.concat("/blockchain")],
         ['Solana', pathname.concat("/solana")],
-        ["Team", pathname.concat("/team")]
+        // ["Team", pathname.concat("/team")],
+        ["Milestones", pathname.concat("/milestones")],
     ];
 
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -74,7 +75,7 @@ function ResponsiveAppBar() {
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Button
-                                key={" " + page[0] + ":"}
+                                key={page[0] + ":"}
                                 href={page[1]}
                                 onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
